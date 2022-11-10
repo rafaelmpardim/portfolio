@@ -32,7 +32,7 @@ export function Project({ id, title, company, description, link, thumbnailUrl }:
 							<div
 								className='
 									flex items-center gap-4
-									lg:flex-col lg:items-start
+									sm:flex-col sm:items-start
 								'
 							>
 								<span className='text-xl text-gray-600 font-thin'>{id}</span>
