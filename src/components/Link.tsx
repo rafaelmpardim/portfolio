@@ -18,6 +18,7 @@ export function Link({ children, className, ...rest }: LinkProps) {
 					className
 				)
 			}
+			target='_blank'
 			{...rest}
 		>
 			{children}
