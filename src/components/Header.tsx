@@ -1,20 +1,22 @@
 import Image from 'next/image'
-import Link from 'next/link'
+
+import { Link } from './Link'
 
 import logo from '../assets/logo.svg'
 
 export function Header() {
 	return (
 		<header
-			className='items-center flex justify-between max-w-[1440px] m-auto pt-6 pb-6'
+			className='flex items-center justify-between max-w-[1240px] m-auto p-6'
 		>
 			<Image
-				alt='Logo da marca Rafael Pardim' 
+				alt='Logo da marca Rafael Pardim'
+				className='w-8'
 				src={logo}
+				title='@rafaelmpardim'
 			/>
       
 			<Link
-				className='text-2xl text-cyan-900 h-full'
 				href='https://linkedin.com/in/rafaelmpardim'
 			>
         Mais informações
