@@ -100,7 +100,7 @@ export default function Home() {
 									sm:text-start
 								'
 							>
-								23 anos, pouco mais de um ano empreendendo dentro da bolha tech, lidando com código, prototipando designs e adptando-se às mudanças.
+								23 anos, pouco mais de um ano empreendendo dentro da bolha tech, lidando com código, prototipando designs e adaptando-se às mudanças.
 							</span>
 						</div>
 					
