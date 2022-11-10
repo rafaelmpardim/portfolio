@@ -1,24 +1,24 @@
-import Image from 'next/image'
 import Head from 'next/head'
+import Image from 'next/image'
 
+import { BsCreditCard } from 'react-icons/bs'
 import { GiSoccerBall } from 'react-icons/gi'
 import { SiInstagram, SiLinkedin, SiReact, SiSitepoint } from 'react-icons/si'
-import { BsCreditCard } from 'react-icons/bs'
 
-import { Header } from '../components/Header'
 import { Divider } from '../components/Divider'
-import { GithubStats } from '../components/GithubStats'
-import { TechsList } from '../components/TechsList'
-import { Project } from '../components/Project'
-import { Link } from '../components/Link'
 import { Footer } from '../components/Footer'
+import { GithubStats } from '../components/GithubStats'
+import { Header } from '../components/Header'
+import { Link } from '../components/Link'
+import { Project } from '../components/Project'
+import { TechsList } from '../components/TechsList'
 
-import rafaelImg from '../assets/rafael.svg'
-import logoIgniteImg from '../assets/ignite-logo.svg'
-import logoMadeImg from '../assets/madeincode.svg'
 import dashgoThumbnailImg from '../assets/dashgo.svg'
 import dtmoneyThumbnailImg from '../assets/dtmoney.svg'
 import ignewsThumbnailImg from '../assets/ignews.svg'
+import logoIgniteImg from '../assets/ignite-logo.svg'
+import logoMadeImg from '../assets/madeincode.svg'
+import rafaelImg from '../assets/rafael.svg'
 
 export default function Home() {
 	return (
@@ -127,8 +127,8 @@ export default function Home() {
 						>
 							<ul className='flex items-center gap-3'>
 								<li className='w-6'>
-									<Link href='https://instagram.com/madeincodetech'>
-										{<SiInstagram className='text-gray-100' size='100%'/>}
+									<Link className='text-gray-100' href='https://instagram.com/madeincodetech'>
+										{<SiInstagram size='100%'/>}
 									</Link>
 								</li>
 								<li className='w-6'>
@@ -299,7 +299,7 @@ export default function Home() {
 							title='NLW Copa'
 							company='@Rocketseat'
 							description='Bolão descentralizado para acompanhar os jogos da Copa do Mundo de 2022'
-							link='https://rafaelmpardim-nlwcopa.vercel.app'
+							link='#'
 						/>
 
 						<Project
@@ -307,7 +307,7 @@ export default function Home() {
 							title='Ignite Lab 03'
 							company='@Rocketseat'
 							description='Design System completo, do Figma ao React com documentação e testes via Storybook'
-							link='https://rafaelmpardim-ignitelab03.vercel.app'
+							link='https://rafaelmpardim.github.io/ignite-lab-03/'
 						/>
 
 						<Project
@@ -315,7 +315,7 @@ export default function Home() {
 							title='Explorer Lab 01'
 							company='@Rocketseat'
 							description='Manipulação da DOM com Vanila JavaScript, validando formulários e adaptando estilos'
-							link='https://rafaelmpardim-explorerlab01.vercel.app'
+							link='https://rafaelmpardim-rocketpay.vercel.app'
 						/>
 					</div>
 				</section>

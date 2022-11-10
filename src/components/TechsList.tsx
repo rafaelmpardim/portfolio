@@ -1,4 +1,4 @@
-import { SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiFigma, SiChakraui } from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiFigma, SiTailwindcss } from 'react-icons/si'
 
 export function TechsList() {
 	return (
@@ -21,7 +21,7 @@ export function TechsList() {
 				{<SiNextdotjs size='100%' title='Next.js'/>}
 			</li>
 			<li className='w-8 lg:w-10'>
-				{<SiChakraui size='100%' title='Vercel'/>}
+				{<SiTailwindcss size='100%' title='Vercel'/>}
 			</li>
 			<li className='w-8 lg:w-10'>
 				{<SiFigma size='100%' title='Tailwind CSS'/>}
