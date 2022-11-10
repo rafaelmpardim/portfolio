@@ -14,7 +14,7 @@ export function Footer() {
 					</Link>
 				</li>
 				<li>
-					<Link href='https://intagram.com/rafaelmpardim'>
+					<Link href='https://instagram.com/rafaelmpardim'>
 						instagram
 					</Link>
 				</li>
