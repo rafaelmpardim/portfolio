@@ -21,10 +21,10 @@ export function TechsList() {
 				{<SiNextdotjs size='100%' title='Next.js'/>}
 			</li>
 			<li className='w-8 lg:w-10'>
-				{<SiTailwindcss size='100%' title='Vercel'/>}
+				{<SiTailwindcss size='100%' title='Tailwind CSS'/>}
 			</li>
 			<li className='w-8 lg:w-10'>
-				{<SiFigma size='100%' title='Tailwind CSS'/>}
+				{<SiFigma size='100%' title='Figma'/>}
 			</li>
 		</ul>
 	)
