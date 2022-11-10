@@ -25,6 +25,26 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Portfólio - Rafael Pardim</title>
+
+				{/* <!-- Meta SEO --> */}
+				<meta name="author" content="Rafael Pardim" />
+				<meta name="description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
+				<meta name="robots" content="index, follow" />
+
+				{/* <!-- Meta SEO Social - Facebook --> */}
+				<meta property="og:type" content="company" />
+				<meta property="og:url" content="https://rafaelmpardim.vercel.app" />
+				<meta property="og:site_name" content="Rafael Pardim | Dev front-end e UI Designer" />
+				<meta property="og:title" content="Rafael Pardim | Dev front-end e UI Designer" />
+				<meta property="og:description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
+				<meta property="og:image" content="../../public/image-seo.png" />
+
+				{/* <!--  Meta SEO Social - Twitter --> */}
+				<meta name="twitter:cards" content="summary" />
+				<meta name="twitter:url" content="https://rafaelmpardim.vercel.app" />
+				<meta name="twitter:title" content="afael Pardim | Dev front-end e UI Designer" />
+				<meta name="twitter:description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
+				<meta property="twitter:image" content="../../public/image-seo.png" />
 			</Head>
 
 			<Header />
