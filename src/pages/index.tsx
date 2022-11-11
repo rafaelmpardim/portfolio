@@ -37,14 +37,14 @@ export default function Home() {
 				<meta property="og:site_name" content="Rafael Pardim | Dev front-end e UI Designer" />
 				<meta property="og:title" content="Rafael Pardim | Dev front-end e UI Designer" />
 				<meta property="og:description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
-				<meta property="og:image" content="../../public/image-seo.png" />
+				<meta property="og:image" content="https://user-images.githubusercontent.com/83538547/201237897-29e310cb-84b7-43b0-8785-790d7eaf365a.png" />
 
 				{/* <!--  Meta SEO Social - Twitter --> */}
 				<meta name="twitter:cards" content="summary" />
 				<meta name="twitter:url" content="https://rafaelmpardim.vercel.app" />
 				<meta name="twitter:title" content="afael Pardim | Dev front-end e UI Designer" />
 				<meta name="twitter:description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
-				<meta property="twitter:image" content="../../public/image-seo.png" />
+				<meta property="twitter:image" content="https://user-images.githubusercontent.com/83538547/201237897-29e310cb-84b7-43b0-8785-790d7eaf365a.png" />
 			</Head>
 
 			<Header />
