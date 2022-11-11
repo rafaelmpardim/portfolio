@@ -42,7 +42,7 @@ export default function Home() {
 				{/* <!--  Meta SEO Social - Twitter --> */}
 				<meta name="twitter:cards" content="summary" />
 				<meta name="twitter:url" content="https://rafaelmpardim.vercel.app" />
-				<meta name="twitter:title" content="afael Pardim | Dev front-end e UI Designer" />
+				<meta name="twitter:title" content="Rafael Pardim | Dev front-end e UI Designer" />
 				<meta name="twitter:description" content="Portfólio de apresentação dos projetos desenvolvidos, carreira e informações pessoais." />
 				<meta property="twitter:image" content="https://user-images.githubusercontent.com/83538547/201237897-29e310cb-84b7-43b0-8785-790d7eaf365a.png" />
 			</Head>
@@ -255,10 +255,10 @@ export default function Home() {
 					<div className='flex flex-col gap-6'>
 						<Project
 							id='01'
-							title='Dashgo'
-							description='Painel administativo com fluxo de autenticação, dashboard e controle de usuários'
-							link='https://rafaelmpardim-dashgo.vercel.app'
-							thumbnailUrl={dashgoThumbnailImg}
+							title='DtMoney'
+							description='Dashboard de controle de lançamentos financeiros e acompanhamento de movimentações'
+							link='https://rafaelmpardim-dtmoney.vercel.app'
+							thumbnailUrl={dtmoneyThumbnailImg}
 						/>
 
 						<Project
@@ -271,11 +271,12 @@ export default function Home() {
 
 						<Project
 							id='03'
-							title='DtMoney'
-							description='Dashboard de controle de lançamentos financeiros e acompanhamento de movimentações'
-							link='https://rafaelmpardim-dtmoney.vercel.app'
-							thumbnailUrl={dtmoneyThumbnailImg}
+							title='Dashgo'
+							description='Painel administativo com fluxo de autenticação, dashboard e controle de usuários'
+							link='https://rafaelmpardim-dashgo.vercel.app'
+							thumbnailUrl={dashgoThumbnailImg}
 						/>
+
 					</div>
 				</section>
 
@@ -295,14 +296,6 @@ export default function Home() {
 						'
 					>
 						<Project
-							id={<GiSoccerBall className='text-yellow-500' size={32}/>}
-							title='NLW Copa'
-							company='@Rocketseat'
-							description='Bolão descentralizado para acompanhar os jogos da Copa do Mundo de 2022'
-							link='#'
-						/>
-
-						<Project
 							id={<SiReact className='text-cyan-900' size={32}/>}
 							title='Ignite Lab 03'
 							company='@Rocketseat'
@@ -316,6 +309,14 @@ export default function Home() {
 							company='@Rocketseat'
 							description='Manipulação da DOM com Vanila JavaScript, validando formulários e adaptando estilos'
 							link='https://rafaelmpardim-rocketpay.vercel.app'
+						/>
+
+						<Project
+							id={<GiSoccerBall className='text-yellow-500' size={32}/>}
+							title='NLW Copa'
+							company='@Rocketseat'
+							description='Bolão descentralizado para acompanhar os jogos da Copa do Mundo de 2022'
+							link='#'
 						/>
 					</div>
 				</section>
