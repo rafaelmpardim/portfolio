@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="" src="" width="100%">
+  <img alt="Página do Portfólio de Rafael Pardim" src="https://user-images.githubusercontent.com/83538547/201237897-29e310cb-84b7-43b0-8785-790d7eaf365a.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
