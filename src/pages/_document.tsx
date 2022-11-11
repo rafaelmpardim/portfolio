@@ -9,7 +9,7 @@ export default function Document() {
 
 				<link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;400;500;700&display=swap" rel="stylesheet" />
 
-				<link rel="shortcut icon" href="favicon.png" type="image/png" sizes='32x32'/>
+				<link rel="shortcut icon" href="favicon.png" type="image/png"/>
 			</Head>
 			<body	className='bg-black text-gray-100'>
 				<Main />
